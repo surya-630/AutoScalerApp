@@ -69,7 +69,7 @@ class AutoScaler:
 
 def main():
     # Define the base URL of the Vimeo application
-    base_url = "http://vimeo-app-url"
+    base_url = "http://target-app-url"
     auto_scaler = AutoScaler(base_url)
 
     try:
