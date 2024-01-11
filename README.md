@@ -24,7 +24,7 @@ Set the base_url variable in the script to the URL of the Vimeo application.
 base_url = "http://target-app-url"
 
 Adjust the target_cpu and threshold values based on your scaling requirements.
-auto_scaler = AutoScaler(base_url, target_cpu=0.80, threshold=0.05)
+auto_scaler = AutoScaler(base_url, target_cpu=0.75, threshold=0.05)
 
 Logging
 The script logs messages to a rotating log file ("autoscaler.log") with a maximum size of 10 MB and keeps 3 backup files.
