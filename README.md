@@ -32,6 +32,6 @@ The script logs messages to a rotating log file ("autoscaler.log") with a maximu
 Usage
 
 Run the script:
-
 python autoscaler_script.py
+
 The script will run infinitely, adjusting replicas based on CPU utilization every 60 seconds. Terminate the script using Ctrl + C (in Windows and Linux) & Cmd + C (in Mac).
